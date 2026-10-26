@@ -3,7 +3,7 @@ ARCH := arm
 CROSS_COMPILE := arm-linux-gnueabihf-
 KCFLAGS := -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard
 
-obj-m += asm1_driver.o
+obj-m += asgn1_driver.o
 
 all:
 	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) KCFLAGS="$(KCFLAGS)" modules
