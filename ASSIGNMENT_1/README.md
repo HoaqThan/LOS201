@@ -1,0 +1,4 @@
+- TASK 1: ioctl Interface
+- TASK 2: Misc Device Driver
+- TASK 3: Architecture Report
+- TASK 4: Technical Questions
