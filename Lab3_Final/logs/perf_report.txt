@@ -1,0 +1,480 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 168  of event 'cpu-clock'
+# Event count (approx.): 42000000
+#
+# Overhead  Command      Shared Object      Symbol                          
+# ........  ...........  .................  ................................
+#
+    44.05%  perf_target  libm.so.6          [.] __ieee754_log_fma
+            |
+            ---__ieee754_log_fma
+               |          
+               |--0.60%--0x40f7ade000000000
+               |          
+               |--0.60%--0x40f745c000000000
+               |          
+               |--0.60%--0x40f741a000000000
+               |          
+               |--0.60%--0x40f6fa3000000000
+               |          
+               |--0.60%--0x40f6cad000000000
+               |          
+               |--0.60%--0x40f5c80000000000
+               |          
+               |--0.60%--0x40f5ac2000000000
+               |          
+               |--0.60%--0x40f56df000000000
+               |          
+               |--0.60%--0x40f563f000000000
+               |          
+               |--0.60%--0x40f5081000000000
+               |          
+               |--0.60%--0x40f4f2b000000000
+               |          
+               |--0.60%--0x40f4b1b000000000
+               |          
+               |--0.60%--0x40f462d000000000
+               |          
+               |--0.60%--0x40f432e000000000
+               |          
+               |--0.60%--0x40f38c2000000000
+               |          
+               |--0.60%--0x40f36b3000000000
+               |          
+               |--0.60%--0x40f2d4d000000000
+               |          
+               |--0.60%--0x40f2a82000000000
+               |          
+               |--0.60%--0x40f2991000000000
+               |          
+               |--0.60%--0x40f212a000000000
+               |          
+               |--0.60%--0x40f1fc8000000000
+               |          
+               |--0.60%--0x40f1ebb000000000
+               |          
+               |--0.60%--0x40f1c45000000000
+               |          
+               |--0.60%--0x40f0868000000000
+               |          
+               |--0.60%--0x40f0813000000000
+               |          
+               |--0.60%--0x40f0618000000000
+               |          
+               |--0.60%--0x40f02e0000000000
+               |          
+               |--0.60%--0x40ef8c0000000000
+               |          
+               |--0.60%--0x40ee8e0000000000
+               |          
+               |--0.60%--0x40ee0cc000000000
+               |          
+               |--0.60%--0x40ec7f8000000000
+               |          
+               |--0.60%--0x40eb2c0000000000
+               |          
+               |--0.60%--0x40eb0fe000000000
+               |          
+               |--0.60%--0x40eab2a000000000
+               |          
+               |--0.60%--0x40e9cde000000000
+               |          
+               |--0.60%--0x40e9a1e000000000
+               |          
+               |--0.60%--0x40e9914000000000
+               |          
+               |--0.60%--0x40e98de000000000
+               |          
+               |--0.60%--0x40e8208000000000
+               |          
+               |--0.60%--0x40e7c04000000000
+               |          
+               |--0.60%--0x40e76e2000000000
+               |          
+               |--0.60%--0x40e6cde000000000
+               |          
+               |--0.60%--0x40e6ca4000000000
+               |          
+               |--0.60%--0x40e63be000000000
+               |          
+               |--0.60%--0x40e4f9e000000000
+               |          
+               |--0.60%--0x40e431e000000000
+               |          
+               |--0.60%--0x40e4232000000000
+               |          
+               |--0.60%--0x40e36ea000000000
+               |          
+               |--0.60%--0x40e35b6000000000
+               |          
+               |--0.60%--0x40e12fc000000000
+               |          
+               |--0.60%--0x40df448000000000
+               |          
+               |--0.60%--0x40dda84000000000
+               |          
+               |--0.60%--0x40d9780000000000
+               |          
+               |--0.60%--0x40d910c000000000
+               |          
+               |--0.60%--0x40d7ba4000000000
+               |          
+               |--0.60%--0x40d5308000000000
+               |          
+               |--0.60%--0x40d4ccc000000000
+               |          
+               |--0.60%--0x40d496c000000000
+               |          
+               |--0.60%--0x40d3454000000000
+               |          
+               |--0.60%--0x40d1c34000000000
+               |          
+               |--0.60%--0x40d0b58000000000
+               |          
+               |--0.60%--0x40cf290000000000
+               |          
+               |--0.60%--0x40ce2b0000000000
+               |          
+               |--0.60%--0x40cb458000000000
+               |          
+               |--0.60%--0x40cada8000000000
+               |          
+               |--0.60%--0x40ca4c0000000000
+               |          
+               |--0.60%--0x40c4ff8000000000
+               |          
+               |--0.60%--0x40bedd0000000000
+               |          
+               |--0.60%--0x40becd0000000000
+               |          
+               |--0.60%--0x40ba980000000000
+               |          
+               |--0.60%--0x40b74d0000000000
+               |          
+               |--0.60%--0x40b10d0000000000
+               |          
+               |--0.60%--0x40b0f50000000000
+               |          
+                --0.60%--0x40931c0000000000
+
+    30.95%  perf_target  perf_target        [.] heavy_compute
+            |
+            ---heavy_compute
+               |          
+               |--0.60%--0x40f7bd2000000000
+               |          
+               |--0.60%--0x40f7b1c000000000
+               |          
+               |--0.60%--0x40f7436000000000
+               |          
+               |--0.60%--0x40f7141000000000
+               |          
+               |--0.60%--0x40f6ca1000000000
+               |          
+               |--0.60%--0x40f69b5000000000
+               |          
+               |--0.60%--0x40f694a000000000
+               |          
+               |--0.60%--0x40f5776000000000
+               |          
+               |--0.60%--0x40f524c000000000
+               |          
+               |--0.60%--0x40f4157000000000
+               |          
+               |--0.60%--0x40f3fc4000000000
+               |          
+               |--0.60%--0x40f3f6a000000000
+               |          
+               |--0.60%--0x40f3bda000000000
+               |          
+               |--0.60%--0x40f3940000000000
+               |          
+               |--0.60%--0x40f30eb000000000
+               |          
+               |--0.60%--0x40f2526000000000
+               |          
+               |--0.60%--0x40f2226000000000
+               |          
+               |--0.60%--0x40f16c4000000000
+               |          
+               |--0.60%--0x40f0662000000000
+               |          
+               |--0.60%--0x40f060f000000000
+               |          
+               |--0.60%--0x40f0486000000000
+               |          
+               |--0.60%--0x40ebabc000000000
+               |          
+               |--0.60%--0x40eb24e000000000
+               |          
+               |--0.60%--0x40e9f9c000000000
+               |          
+               |--0.60%--0x40e81ea000000000
+               |          
+               |--0.60%--0x40e7e3e000000000
+               |          
+               |--0.60%--0x40e6c28000000000
+               |          
+               |--0.60%--0x40e622a000000000
+               |          
+               |--0.60%--0x40e4420000000000
+               |          
+               |--0.60%--0x40e3f8e000000000
+               |          
+               |--0.60%--0x40e3e66000000000
+               |          
+               |--0.60%--0x40e1348000000000
+               |          
+               |--0.60%--0x40df8f0000000000
+               |          
+               |--0.60%--0x40dd580000000000
+               |          
+               |--0.60%--0x40d77a0000000000
+               |          
+               |--0.60%--0x40d6cf4000000000
+               |          
+               |--0.60%--0x40d51b0000000000
+               |          
+               |--0.60%--0x40d3634000000000
+               |          
+               |--0.60%--0x40d2c0c000000000
+               |          
+               |--0.60%--0x40d202c000000000
+               |          
+               |--0.60%--0x40d1a68000000000
+               |          
+               |--0.60%--0x40d0cf4000000000
+               |          
+               |--0.60%--0x40d07dc000000000
+               |          
+               |--0.60%--0x40d01a8000000000
+               |          
+               |--0.60%--0x40c6be8000000000
+               |          
+               |--0.60%--0x40c6b68000000000
+               |          
+               |--0.60%--0x40c5b90000000000
+               |          
+               |--0.60%--0x40c3118000000000
+               |          
+               |--0.60%--0x40c1740000000000
+               |          
+               |--0.60%--0x40c0200000000000
+               |          
+               |--0.60%--0x40b48e0000000000
+               |          
+                --0.60%--0x4072c00000000000
+
+     9.52%  perf_target  libm.so.6          [.] __log_finite@GLIBC_2.15@plt
+            |
+            ---__log_finite@GLIBC_2.15@plt
+               |          
+               |--0.60%--0x40f606f000000000
+               |          
+               |--0.60%--0x40f4411000000000
+               |          
+               |--0.60%--0x40f39f5000000000
+               |          
+               |--0.60%--0x40f2d7b000000000
+               |          
+               |--0.60%--0x40f0120000000000
+               |          
+               |--0.60%--0x40eea72000000000
+               |          
+               |--0.60%--0x40ed86c000000000
+               |          
+               |--0.60%--0x40ebc34000000000
+               |          
+               |--0.60%--0x40e6942000000000
+               |          
+               |--0.60%--0x40e6010000000000
+               |          
+               |--0.60%--0x40e48e8000000000
+               |          
+               |--0.60%--0x40e2002000000000
+               |          
+               |--0.60%--0x40e0fec000000000
+               |          
+               |--0.60%--0x40d7d40000000000
+               |          
+               |--0.60%--0x40cf648000000000
+               |          
+                --0.60%--0x408ef00000000000
+
+     8.93%  perf_target  perf_target        [.] log@plt
+            |
+            ---log@plt
+               |          
+               |--0.60%--0x40f499a000000000
+               |          
+               |--0.60%--0x40f30db000000000
+               |          
+               |--0.60%--0x40f1957000000000
+               |          
+               |--0.60%--0x40e9ea6000000000
+               |          
+               |--0.60%--0x40e8728000000000
+               |          
+               |--0.60%--0x40e83ae000000000
+               |          
+               |--0.60%--0x40e7dfc000000000
+               |          
+               |--0.60%--0x40e5616000000000
+               |          
+               |--0.60%--0x40e1774000000000
+               |          
+               |--0.60%--0x40e131a000000000
+               |          
+               |--0.60%--0x40dbfc4000000000
+               |          
+               |--0.60%--0x40da6cc000000000
+               |          
+               |--0.60%--0x40d47c8000000000
+               |          
+               |--0.60%--0x40c8eb8000000000
+               |          
+                --0.60%--0x40af6c0000000000
+
+     1.19%  perf_target  [kernel.kallsyms]  [k] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               exc_page_fault
+               asm_exc_page_fault
+               main
+               0x4000000000000000
+
+     1.19%  perf_target  perf_target        [.] linear_search
+            |
+            ---linear_search
+               0x4000000000000000
+
+     0.60%  perf_target  [kernel.kallsyms]  [k] __kmalloc_noprof
+            |
+            ---__kmalloc_noprof
+               inotify_handle_inode_event
+               fsnotify_handle_inode_event.isra.0
+               send_to_group
+               fsnotify
+               __fsnotify_parent
+               vfs_write
+               ksys_write
+               __x64_sys_write
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __internal_syscall_cancel (inlined)
+               __syscall_cancel
+               __libc_write (inlined)
+               _IO_new_file_write (inlined)
+               new_do_write (inlined)
+               _IO_new_do_write (inlined)
+               _IO_new_file_overflow (inlined)
+               __printf_buffer_flush_to_file
+               __printf_buffer_has_failed (inlined)
+               __printf_buffer_flush
+               __printf_buffer_write
+               __printf_buffer
+               __vfprintf_internal
+               ___fprintf_chk (inlined)
+               file_io_test
+               0x626869db0600
+
+     0.60%  perf_target  [kernel.kallsyms]  [k] __refill_objects_node
+            |
+            ---__refill_objects_node
+               refill_objects
+               __prefill_sheaf_pfmemalloc
+               kmem_cache_prefill_sheaf
+               mas_preallocate
+               __split_vma
+               vma_modify
+               vma_modify_flags
+               mprotect_fixup
+               do_mprotect_pkey
+               __x64_sys_mprotect
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __mprotect (inlined)
+               dl_main
+               _dl_sysdep_start
+               _dl_start_final (inlined)
+               _dl_start
+               _dl_start_user
+
+     0.60%  perf_target  [kernel.kallsyms]  [k] __x64_sys_access
+            |
+            ---__x64_sys_access
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __access (inlined)
+               _dl_sysdep_start
+               _dl_start_final (inlined)
+               _dl_start
+               _dl_start_user
+
+     0.60%  perf_target  [kernel.kallsyms]  [k] queue_work_on
+            |
+            ---queue_work_on
+               tty_insert_flip_string_and_push_buffer
+               pty_write
+               process_output_block
+               n_tty_write
+               iterate_tty_write
+               file_tty_write.isra.0
+               tty_write
+               vfs_write
+               ksys_write
+               __x64_sys_write
+               x64_sys_call
+               do_syscall_64
+               entry_SYSCALL_64_after_hwframe
+               __internal_syscall_cancel (inlined)
+               __syscall_cancel
+               __libc_write (inlined)
+               _IO_new_file_write (inlined)
+               new_do_write (inlined)
+               _IO_new_do_write (inlined)
+               _IO_new_file_xsputn (inlined)
+               _IO_new_file_xsputn (inlined)
+               __printf_buffer_flush_to_file (inlined)
+               __printf_buffer_to_file_done
+               __vfprintf_internal
+               ___printf_chk (inlined)
+               main
+               0x4000000000000000
+
+     0.60%  perf_target  libc.so.6          [.] __memmove_avx_unaligned_erms
+            |
+            ---__memmove_avx_unaligned_erms
+               __printf_buffer
+               __vfprintf_internal
+               ___fprintf_chk (inlined)
+               file_io_test
+               0x626869db0600
+
+     0.60%  perf_target  libc.so.6          [.] __printf_buffer_write
+            |
+            ---__printf_buffer_write
+               __vfprintf_internal
+               ___fprintf_chk (inlined)
+               file_io_test
+               0x626869db0600
+
+     0.60%  perf_target  libc.so.6          [.] _itoa_word
+            |
+            ---_itoa_word
+               __vfprintf_internal
+               ___fprintf_chk (inlined)
+               file_io_test
+               0x626869db0600
+
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

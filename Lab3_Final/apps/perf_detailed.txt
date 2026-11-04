@@ -1,0 +1,16 @@
+# started on Mon Oct 26 08:05:25 2026
+
+
+ Performance counter stats for './buggy_app_host':
+
+              0.77 msec task-clock                                                            
+                 0      context-switches                                                      
+                 0      cpu-migrations                                                        
+                63      page-faults                                                           
+
+       0.002142410 seconds time elapsed
+
+       0.000000000 seconds user
+       0.002082000 seconds sys
+
+

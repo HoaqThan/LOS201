@@ -1,0 +1,26 @@
+=== ARM MEMORY STATUS ===
+Application: leaky_app_memory
+Architecture: ARMv7
+Kernel: Linux 5.15.0
+PID: 69
+
+VmPeak: 628 kB
+VmSize: 628 kB
+VmHWM: 4 kB
+VmRSS: 4 kB
+VmData: 152 kB
+VmStk: 132 kB
+VmExe: 324 kB
+VmPTE: 6 kB
+Threads: 1
+
+=== ARM MEMORY MAPS ===
+00010000-00061000 r-xp 00000000 00:02 58 /usr/bin/leaky_app_memory
+0007e000-00080000 r--p 0005e000 00:02 58 /usr/bin/leaky_app_memory
+00080000-00081000 rw-p 00060000 00:02 58 /usr/bin/leaky_app_memory
+00081000-000a6000 rw-p 00000000 00:00 0 [heap]
+7ed67000-7ed88000 rw-p 00000000 00:00 0 [stack]
+7ee35000-7ee36000 r-xp 00000000 00:00 0 [sigpage]
+7ee36000-7ee37000 r--p 00000000 00:00 0 [vvar]
+7ee37000-7ee38000 r-xp 00000000 00:00 0 [vdso]
+ffff0000-ffff1000 r-xp 00000000 00:00 0 [vectors]

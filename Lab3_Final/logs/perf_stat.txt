@@ -1,0 +1,16 @@
+# started on Thu Oct 29 22:09:57 2026
+
+
+ Performance counter stats for './perf_target':
+
+             53.10 msec task-clock                                                            
+                 1      context-switches                                                      
+                 1      cpu-migrations                                                        
+               377      page-faults                                                           
+
+       0.054702561 seconds time elapsed
+
+       0.050736000 seconds user
+       0.004058000 seconds sys
+
+
