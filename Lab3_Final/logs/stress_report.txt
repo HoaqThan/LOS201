@@ -1,0 +1,15 @@
+stress-ng: info:  [9711] setting to a 1 min run per stressor
+stress-ng: info:  [9711] dispatching hogs: 16 cpu, 4 io, 2 vm
+stress-ng: info:  [9711] note: 16 cpus have scaling governors set to powersave and this may impact performance; setting /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor to 'performance' may improve performance
+stress-ng: info:  [9730] io: this is a legacy I/O sync stressor, consider using iomix instead
+stress-ng: info:  [9734] vm: using 128MB per stressor instance (total 256MB of 10.12GB available memory)
+stress-ng: metrc: [9711] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [9711]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [9711] cpu              363709     60.00    802.31      1.58      6061.62         452.44
+stress-ng: metrc: [9711] io                52060     60.01      0.84      9.40       867.57        5081.81
+stress-ng: metrc: [9711] vm              1463194     60.09     78.24     13.51     24351.17       15947.33
+stress-ng: info:  [9711] skipped: 0
+stress-ng: info:  [9711] passed: 22: cpu (16) io (4) vm (2)
+stress-ng: info:  [9711] failed: 0
+stress-ng: info:  [9711] metrics untrustworthy: 0
+stress-ng: info:  [9711] successful run completed in 1 min

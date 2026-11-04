@@ -1,0 +1,14 @@
+# started on Mon Oct 26 07:22:47 2026
+
+
+ Performance counter stats for './buggy_app_host':
+
+   <not supported>      cpu_core/cpu-cycles/u            #      nan GHz  cycles_frequency     
+   <not supported>      cpu_atom/cpu-cycles/u            #      nan GHz  cycles_frequency     
+
+       0.002424810 seconds time elapsed
+
+       0.000000000 seconds user
+       0.002299000 seconds sys
+
+
