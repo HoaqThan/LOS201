@@ -1,0 +1,19 @@
+TASK 2 - COUNTER DRIVER VERIFICATION
+====================================
+Device:
+crw-------    1 0        0          10, 125 Nov  5 02:17 /dev/counter
+
+Procfs statistics:
+Counter Device Statistics
+=========================
+Current counter : 1
+Total reads     : 6
+Total writes    : 2
+
+Module:
+counter_driver 16384 0 - Live 0x7f000000 (O)
+
+Kernel log:
+hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available
+counter_driver: loading out-of-tree module taints kernel.
+counter: driver loaded successfully
