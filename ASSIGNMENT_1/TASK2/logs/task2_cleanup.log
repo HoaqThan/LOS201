@@ -1,0 +1,8 @@
+TASK 2 - MODULE CLEANUP TEST
+============================
+[PASS] Module unloaded
+[PASS] Device removed
+[PASS] Procfs removed
+========== KERNEL LOG ==========
+counter: driver loaded successfully
+counter: driver unloaded

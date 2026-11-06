@@ -1,0 +1,25 @@
+========================================
+ TASK 2 - COUNTER DRIVER TEST
+========================================
+========== RESET ==========
+========== READ TEST ==========
+[PASS] Read 0: 0
+[PASS] Read 1: 1
+[PASS] Read 2: 2
+========== WRITE TEST ==========
+[PASS] Read 100: 100
+[PASS] Read 101: 101
+========== RESET TEST ==========
+[PASS] Reset to 0: 0
+========== INVALID INPUT ==========
+[PASS] Negative value rejected
+[PASS] Invalid string rejected
+========== PROCFS ==========
+Counter Device Statistics
+=========================
+Current counter : 1
+Total reads     : 12
+Total writes    : 5
+========== SUMMARY ==========
+PASS=8
+FAIL=0
